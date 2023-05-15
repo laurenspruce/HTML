@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<p>Click <a href="index.html">here</a> to go back to the homepage.</p>
+
+	<form method="GET">
+		First Name:<input type="text" name="fname" required><br>
+		Second Name:<input type="text" name="lname" required><br>
+		Email:<input type="email" name="email" required><br>
+		Password:<input type="password" name="password" minlength="5" required><br>
+		Birthday :<input type="date" name="birthday"><br>
+		Gender:<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+
+
+		<!--This is a checkbox implementation, showing that you can select multiple options-->
+		Do you have any pets?<br>
+		<input type="checkbox" name="cat"> Cat<br>
+		<input type="checkbox" name="dog"> Dog<br>
+		
+		<!--This is a drop down box menu implementation-->
+		Cars: <br>
+		<select name="cars">
+			<option value="Volvo" name="volvo">Volvo</option>
+			<option value="Audi" name="audi">Audi</option><br>
+		</select>
+
+		<!-- These are buttons-->
+		<input type="submit" value="Register">
+		<input type="reset">
+	</form>
+
+</body>
+</html>
